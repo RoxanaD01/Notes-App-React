@@ -1,0 +1,139 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.searchBarCat {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.list-title {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 20px;
+  font-size: 2.5rem; 
+  font-weight: bold;
+  background-color: transparent; 
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2);
+  z-index: 100; /* Ensure it stays above other elements */
+}
+
+.app-header h1 {
+  font-family: 'Caveat';
+  margin: 0;
+  color: #333; 
+}
+
+.app-footer {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 20px;
+  font-size: 2.5rem; 
+  font-weight: bold;
+  background-color: #ECECEC; 
+  box-shadow: 3px 3px 10px rgba(0.2, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.footer-rights {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+/* Media Queries for max 400px */
+
+@media (max-width: 400px) {
+  .searchBarCat {
+    flex-direction: column; 
+    gap: 8px; 
+    padding: 5px; 
+  }
+
+  .list-title {
+    font-size: 14px; 
+    text-align: center; 
+    font-weight: 400; 
+  }
+
+  .app-header {
+    flex-direction: column; 
+    align-items: center; 
+    padding: 10px; 
+    font-size: 1.8rem; 
+  }
+
+  .app-header h1 {
+    font-size: 1.6rem; 
+  }
+
+  @media (max-width: 600px) {
+    .app-footer {
+      flex-direction: column; 
+      align-items: center;
+    }
+}
+}
+
+/* Media Queries for max 600px */
+
+@media (max-width: 600px) {
+  .searchBarCat {
+    flex-direction: column; 
+    gap: 10px; 
+    padding: 10px; 
+  }
+
+  .list-title {
+    font-size: 16px; 
+    text-align: center; 
+  }
+
+  .app-header {
+    flex-direction: column; 
+    align-items: center; 
+    padding: 15px; 
+    font-size: 2rem; 
+  }
+
+  .app-header h1 {
+    font-size: 1.8rem; 
+    color: #444; 
+  }
+}
+
+/* Media Queries between 601px and 1024px */
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .list-title {
+    font-size: 18px; 
+  }
+
+  .app-header {
+    padding: 15px 30px; 
+    font-size: 2.3rem; 
+  }
+
+  .app-header h1 {
+    font-size: 2.2rem; 
+  }
+}
