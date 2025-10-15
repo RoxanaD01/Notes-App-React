@@ -1,10 +1,10 @@
-# Notes App 
+# 📓 Notes App 
 A simple and clean note-taking app built with React and Vite.
 
-## Live Demo
-Check it out here: [https://RoxanaD01.github.io/Notes-App-React/](https://RoxanaD01.github.io/Notes-App-React/)
+[🌐 Live Demo](https://roxanad01.github.io/Notes-App-React)  
 
 ## Features
+
 - Create notes with a title and content
 - Search through your notes
 - Delete notes you don't need anymore
@@ -13,12 +13,14 @@ Check it out here: [https://RoxanaD01.github.io/Notes-App-React/](https://Roxana
 - Notes persist in browser storage
 
 ## Tech Stack
+
 - React 19
 - Vite 7
 - CSS3
 - Local Storage API
 
 ## How to Use
+
 ### Create a Note
 
 - Enter a title in the "Title" field
@@ -27,15 +29,22 @@ Check it out here: [https://RoxanaD01.github.io/Notes-App-React/](https://Roxana
 - Click the "Add Note" button
 - 
 ### Search Notes
+
 - Use the search bar to filter notes by title, category or content
 - Results update in real-time as you type
   
 ### Delete / Edit a Note
+
 - Click the "Delete button" to remove it
 - Click the "Edit button" to edit the note
 
-## License
-This project is open source and available under the MIT License.
+## 👩 Author
 
-## Author
 Roxana Dejescu
+- GitHub: https://github.com/RoxanaD01
+- LinkedIn: https://www.linkedin.com/in/roxana-dejescu-1505651b2/
+- Email: roxanadejescu@gmail.com
+
+## 📄 License
+
+This project is licensed under the MIT License
