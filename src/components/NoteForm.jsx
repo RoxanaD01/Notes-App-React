@@ -24,7 +24,7 @@ function NoteForm({addNote}) {
     }
     const newNote = { title, content, category };
     addNote(newNote); // Pass the note to the parent component
-    setTitle(""); // Clear the form
+    setTitle(""); 
     setContent("");
     setCategory("General");
     setErrors({});
