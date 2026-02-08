@@ -96,7 +96,7 @@ function App() {
     </div>
     <header className="app-footer">
         <div className="footer-rights">
-            &copy; 2025 YourAppName. All rights reserved.
+            &copy; 2025 NotesApp. All rights reserved.
         </div>
     </header>
     
